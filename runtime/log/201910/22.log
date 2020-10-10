@@ -1,0 +1,1030 @@
+---------------------------------------------------------------
+[ 2019-10-22T04:07:28+08:00 ] 183.136.190.62 GET csd.wxjoi.com/
+[运行时间：0.024598s] [吞吐率：40.65req/s] [内存消耗：2,441.08kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002856s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002871s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001063s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T04:21:08+08:00 ] 182.88.118.194 GET csd.wxjoi.com/
+[运行时间：0.020880s] [吞吐率：47.89req/s] [内存消耗：2,440.48kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001608s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001623s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001094s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T08:06:52+08:00 ] 111.122.158.26 GET csd.wxjoi.com/
+[运行时间：0.020401s] [吞吐率：49.02req/s] [内存消耗：2,442.55kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001638s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001655s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '111.122.158.26',
+  'x-forwarded-for' => '111.122.158.26',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001085s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T08:06:53+08:00 ] 111.122.158.26 GET csd.wxjoi.com/index/index/getUserOpenId?code=0617AMP42nugUO0QUGN42kaSP427AMPz&state=xiaohe
+[运行时间：0.372436s] [吞吐率：2.69req/s] [内存消耗：3,147.61kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001692s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001705s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getUserOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '111.122.158.26',
+  'x-forwarded-for' => '111.122.158.26',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0617AMP42nugUO0QUGN42kaSP427AMPz',
+  'state' => 'xiaohe',
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001054s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getUserOpenId[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' LIMIT 1 [ RunTime:0.001859s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `nickname`='6YO95YyA55S15Za35rK55rO15rK55Zi057u05L+uMTM5ODQ0NDc1OTY=',`head_url`='http://thirdwx.qlogo.cn/mmopen/vi_32/RPoJZxdmqamziauFfH0KvetbCunCKftLpg4wNk3Q0CVLKtesC45Ua2BWrpQaeBSbh1XyLKoYfnq5LiaZrm2w8DuA/132',`openid`='oe7qJ0-B46aiyeIzQjKPvl-Ecex8',`sex`='1',`updatetime`=1571702813  WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' [ RunTime:0.002335s ]
+---------------------------------------------------------------
+[ 2019-10-22T08:06:53+08:00 ] 111.122.158.26 GET csd.wxjoi.com/index/index/index
+[运行时间：0.032324s] [吞吐率：30.94req/s] [内存消耗：3,931.94kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001636s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001650s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '111.122.158.26',
+  'x-forwarded-for' => '111.122.158.26',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001093s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[ 2019-10-22T08:06:58+08:00 ] 111.122.158.26 GET csd.wxjoi.com/favicon.ico
+[运行时间：0.022182s] [吞吐率：45.08req/s] [内存消耗：2,147.70kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001682s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001700s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csd.wxjoi.com/index/index/index',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T08:07:08+08:00 ] 111.122.158.26 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[运行时间：0.032826s] [吞吐率：30.46req/s] [内存消耗：3,657.17kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001651s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001667s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xqy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '111.122.158.26',
+  'x-forwarded-for' => '111.122.158.26',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://csd.wxjoi.com/index/index/index',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001166s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->xqy[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/xqy.html [ array (
+  0 => 'beitou',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `order_status` > '0'  AND `full_price` = 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-10-22T08:07:53+08:00 ] 61.151.178.197 GET csd.wxjoi.com/index/index/index
+[运行时间：0.020740s] [吞吐率：48.22req/s] [内存消耗：2,443.50kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001603s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001617s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001055s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T08:07:54+08:00 ] 61.151.178.197 GET csd.wxjoi.com/
+[运行时间：0.025518s] [吞吐率：39.19req/s] [内存消耗：2,440.88kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003015s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003034s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001112s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T08:08:08+08:00 ] 61.129.6.227 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[运行时间：0.037283s] [吞吐率：26.82req/s] [内存消耗：3,654.34kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002806s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002822s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xqy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001055s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->xqy[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/xqy.html [ array (
+  0 => 'beitou',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001705s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `order_status` > '0'  AND `full_price` = 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2019-10-22T08:09:13+08:00 ] 111.122.158.26 GET csd.wxjoi.com/index/index/index
+[运行时间：0.049177s] [吞吐率：20.33req/s] [内存消耗：3,931.94kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003043s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003066s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '111.122.158.26',
+  'x-forwarded-for' => '111.122.158.26',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCT-AL10 Build/HUAWEIPCT-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044904 Mobile Safari/537.36 MMWEBID/4708 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=9c6mgsf078eq2i0bqe7dvj0na1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001225s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.001263s ]
+---------------------------------------------------------------
+[ 2019-10-22T11:41:52+08:00 ] 101.17.26.235 GET csd.wxjoi.com/
+[运行时间：0.028015s] [吞吐率：35.69req/s] [内存消耗：2,443.16kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001660s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001677s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '101.17.26.235',
+  'x-forwarded-for' => '101.17.26.235',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/5068 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Fcsd.wxjoi.com%2F&action=appmsg_redirect&uin=777&biz=MzU4MjY5NTUzOQ==&mid=2247489155&idx=1&type=0&scene=0&pass_ticket=vtD2CgcD5t3JS48zg98s4%2FmvnGlHLu6bwoiD2etHgPY%3D',
+  'host' => 'csd.wxjoi.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001105s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T11:41:53+08:00 ] 101.17.26.235 GET csd.wxjoi.com/index/index/getUserOpenId?code=061Xfr4W1tUPwX0WcO7W1xxC4W1Xfr4g&state=xiaohe
+[运行时间：0.392944s] [吞吐率：2.54req/s] [内存消耗：3,147.63kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001783s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001802s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getUserOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '101.17.26.235',
+  'x-forwarded-for' => '101.17.26.235',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/5068 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=64vtnoejpg94qf9g60he366fh7',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061Xfr4W1tUPwX0WcO7W1xxC4W1Xfr4g',
+  'state' => 'xiaohe',
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001187s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getUserOpenId[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ07Z1QTSzNORhcmLng6KY8SI' LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `nickname`='QTDlsI/lh6/nlLXot68xODAzMjUyMTE3Mw==',`head_url`='http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoiaE7OvwXbU8ibP77kELW8YtfS5EbNq03uUb3x8Eibtozc6a7vOINxzrQwTjLfMM4pVEiaGWiabKRhvNA/132',`openid`='oe7qJ07Z1QTSzNORhcmLng6KY8SI',`sex`='1',`updatetime`=1571715713  WHERE  `openid` = 'oe7qJ07Z1QTSzNORhcmLng6KY8SI' [ RunTime:0.002289s ]
+---------------------------------------------------------------
+[ 2019-10-22T11:41:53+08:00 ] 101.17.26.235 GET csd.wxjoi.com/index/index/index
+[运行时间：0.035231s] [吞吐率：28.38req/s] [内存消耗：3,931.94kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001641s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001656s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '101.17.26.235',
+  'x-forwarded-for' => '101.17.26.235',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/5068 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=64vtnoejpg94qf9g60he366fh7',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001087s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001861s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.001136s ]
+---------------------------------------------------------------
+[ 2019-10-22T11:41:55+08:00 ] 101.17.26.235 GET csd.wxjoi.com/favicon.ico
+[运行时间：0.018761s] [吞吐率：53.30req/s] [内存消耗：2,147.70kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001569s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001583s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=64vtnoejpg94qf9g60he366fh7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csd.wxjoi.com/index/index/index',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/5068 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T15:58:42+08:00 ] 183.136.190.62 GET csd.wxjoi.com/
+[运行时间：0.023511s] [吞吐率：42.53req/s] [内存消耗：2,441.09kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001628s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001643s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001095s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T16:21:32+08:00 ] 112.32.42.162 GET csd.wxjoi.com/
+[运行时间：0.045499s] [吞吐率：21.98req/s] [内存消耗：2,443.16kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004289s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004314s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '112.32.42.162',
+  'x-forwarded-for' => '112.32.42.162',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCAM00 Build/PKQ1.190101.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/1140 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Fcsd.wxjoi.com%2F&action=appmsg_redirect&uin=&biz=MzU4MjY5NTUzOQ==&mid=2247489155&idx=1&type=0&scene=0&pass_ticket=Fhc89zqqSVFeSJP2pNTCWyGb0qiciSLKbONNgkmblV0v%2F2SaP6qBc2kUodSE7JP1',
+  'host' => 'csd.wxjoi.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002031s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T16:21:32+08:00 ] 61.129.7.254 GET csd.wxjoi.com/
+[运行时间：0.036169s] [吞吐率：27.65req/s] [内存消耗：2,441.34kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001813s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001827s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'csd.wxjoi.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007694s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T16:21:35+08:00 ] 112.32.42.162 GET csd.wxjoi.com/index/index/getUserOpenId?code=021IiJb71QopyM1WkSc71698c71IiJbB&state=xiaohe
+[运行时间：0.402288s] [吞吐率：2.49req/s] [内存消耗：3,147.27kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001833s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001850s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getUserOpenId',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '112.32.42.162',
+  'x-forwarded-for' => '112.32.42.162',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCAM00 Build/PKQ1.190101.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/1140 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=empv633krmhflq0f1n77plp3u0',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021IiJb71QopyM1WkSc71698c71IiJbB',
+  'state' => 'xiaohe',
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001193s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getUserOpenId[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ07SjZLpF88RQCFq81cra-oE' LIMIT 1 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('5rGf6ICB5Zub44CCMTM5NjYzNzE1OTY=' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKRE9htwInDPrtafesibib7JsNIP34YsU7Yiacv2iaHG3OKqTicnyFEYxlicRcc53fzQBpygyQ3zqSJQ6g/132' , 'oe7qJ07SjZLpF88RQCFq81cra-oE' , '1' , 1571732495 , 1571732495) [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-10-22T16:21:35+08:00 ] 112.32.42.162 GET csd.wxjoi.com/index/index/userdata
+[运行时间：0.028249s] [吞吐率：35.40req/s] [内存消耗：3,179.28kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001872s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001888s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '112.32.42.162',
+  'x-forwarded-for' => '112.32.42.162',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCAM00 Build/PKQ1.190101.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/1140 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csd.wxjoi.com',
+  'cookie' => 'PHPSESSID=empv633krmhflq0f1n77plp3u0',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->userdata[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/csd.wxjoi.com/public/../application/index/view/index/userdata.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ07SjZLpF88RQCFq81cra-oE' LIMIT 1 [ RunTime:0.001003s ]
+---------------------------------------------------------------
+[ 2019-10-22T16:21:39+08:00 ] 112.32.42.162 GET csd.wxjoi.com/favicon.ico
+[运行时间：0.018290s] [吞吐率：54.67req/s] [内存消耗：2,147.70kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001807s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001822s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=empv633krmhflq0f1n77plp3u0',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csd.wxjoi.com/index/index/userdata',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PCAM00 Build/PKQ1.190101.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045005 Mobile Safari/537.36 MMWEBID/1140 MicroMessenger/7.0.7.1521(0x2700073A) Process/tools NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T16:21:42+08:00 ] 58.247.212.98 GET csd.wxjoi.com/
+[运行时间：0.030824s] [吞吐率：32.44req/s] [内存消耗：2,441.34kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002126s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002144s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'csd.wxjoi.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001892s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T21:58:03+08:00 ] 210.52.224.148 GET csd.wxjoi.com/
+[运行时间：0.020678s] [吞吐率：48.36req/s] [内存消耗：2,440.48kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001788s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001802s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'csd.wxjoi.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Wappalyzer)',
+  'accept' => 'text/html,*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001204s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T21:58:05+08:00 ] 210.52.224.148 GET csd.wxjoi.com/
+[运行时间：0.021097s] [吞吐率：47.40req/s] [内存消耗：2,441.13kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001750s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001768s ]
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'host' => 'csd.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/csd.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001141s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/csd.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

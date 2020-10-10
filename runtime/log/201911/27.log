@@ -1,0 +1,144 @@
+---------------------------------------------------------------
+[ 2019-11-27T16:27:38+08:00 ] 221.228.185.114 GET tlhb.wxjoi.com/
+[运行时间：0.049541s] [吞吐率：20.19req/s] [内存消耗：3,279.84kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002274s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002295s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_qddaz=QD.v88clr.u7zbhn.jyo5ucfn; UM_distinctid=16c8dec71191f3-05b21160dd392f-454c092b-15f900-16c8dec711d9c; Qs_lvt_175095=1573260845%2C1573261224; Qs_pv_175095=2621424893379324000%2C2557919820502852000%2C3039059659700186600%2C1375154216499474700',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://47.110.59.237:8899/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001574s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002281s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002558s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' ORDER BY `createtime` ASC [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 3  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2019-11-27T16:27:39+08:00 ] 221.228.185.114 GET tlhb.wxjoi.com/favicon.ico
+[运行时间：0.035827s] [吞吐率：27.91req/s] [内存消耗：2,147.87kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003558s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003583s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_qddaz=QD.v88clr.u7zbhn.jyo5ucfn; UM_distinctid=16c8dec71191f3-05b21160dd392f-454c092b-15f900-16c8dec711d9c; Qs_lvt_175095=1573260845%2C1573261224; Qs_pv_175095=2621424893379324000%2C2557919820502852000%2C3039059659700186600%2C1375154216499474700; PHPSESSID=ut2v4i7vvm176gsbnq4tovi1p6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-27T16:27:58+08:00 ] 42.236.10.114 GET tlhb.wxjoi.com/
+[运行时间：0.036382s] [吞吐率：27.49req/s] [内存消耗：3,279.57kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001991s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002010s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001265s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' ORDER BY `createtime` ASC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 3  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000237s ]

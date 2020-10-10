@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit" />
+		<meta name="robots" content="index, follow" />
+		<title>我的订单</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="order by website" />
+		<script type="text/javascript" src="__XIAOHE__/js/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		 crossorigin="anonymous"></script>
+		<script src="__XIAOHE__/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__XIAOHE__/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__XIAOHE__/js/jquery.num.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="__XIAOHE__/css/bootstrap.min.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="__XIAOHE__/css/dh.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="__XIAOHE__/css/qcys.css" />
+		<link rel="stylesheet" type="text/css" href="__XIAOHE__/css/swiper.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-xs-12" style="padding: 0;">
+				<div class="header">
+					<div class="headerb">
+						我的订单
+					</div>
+					<img class="headera" onclick="javascript:location.href='/index/index/me'" src="__XIAOHE__/img/img4.png">
+				</div>
+				<div class="headerdj"></div>
+
+				<div class="wddd1">
+					<div class="wddd1a">
+						<div status="all" class="wddd1aa wddd1aay">全部</div>
+						<div status="0" class="wddd1aa">待付款</div>
+						<div status="1" class="wddd1aa">待抽奖</div>
+						<div status="2" class="wddd1aa">待收货</div>
+						<div status="3" class="wddd1aa">已完成</div>
+					</div>
+				</div>
+
+
+
+				<?php foreach($order as $key=>$val){?>
+				<div class="wddd2 status{$val['order_status']}" status="{$val['order_status']}">
+					<div class="wddd2a">
+						<div class="wddd2aa">
+							下单时间：<?php echo(date('Y-m-d H:i:s',$val['createtime']))?><div class="wddd2aaa"><?php 
+								switch ($val['order_status']) {
+									case '0':
+										echo('待付款');
+										break;
+									case '1':
+										echo('待抽奖');
+										break;
+									case '2':
+										echo('待收货');
+										break;
+									case '3':
+										echo('已完成');
+										break;
+								}
+								?></div>
+						</div>
+					</div>
+					<div class="wddd2bd">
+						<div class="wddd2b">
+							<div class="wddd2ba"><a href="{:url('/index/index/xqy')}?id={$val.proid}"><img src="<?php echo(explode(',',$val['images'])[0]); ?>"></a></div>
+							<div class="wddd2bb">
+								<div class="wddd2bba">{$val.title}</div>
+								<div class="wddd2bbb">{$val.jieshao}</div>
+								<div class="wddd2bbc">实付：￥{$val.full_price} <span class="wddd2bbca">共{$val.number}件商品</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="wddd2c">
+
+						{if condition="$val['order_status'] neq 0"}
+						<a href="{:url('/index/index/haoma')}?order={$val.order_no}"><div class="wddd2ca" >
+							查看号码
+						</div></a>
+						{/if}
+
+						<?php if($val['order_status']==0){ if( (time()-$val['createtime'])<600){?>
+								
+								<a href="/pay/wxpay.php?order={$val.order_no}&price={$val.full_price}&title={$val.title}"><div class="wddd2cb">
+									付款
+								</div></a>
+							<?php }else{ echo '订单已超时';}}?>
+						<!-- <a href="/pay/wxpay.php?order={$val.order_no}&price={$val.full_price}&title={$val.title}"><div class="wddd2cb">
+							付款
+						</div></a> -->
+						
+
+						{if condition="($val['order_status'] eq 2) OR ($val['order_status'] eq 1)"}
+						<div class="wddd2cb">
+							确认收货
+						</div>
+						{/if}
+						<div class="yuansu"></div>
+
+					</div>
+				</div>
+				<?php }?>
+
+				<div class="Nfooter">
+					
+						<div class="footerdj"></div>
+						<div class="footer">
+							<a href="index.html" class="footera">
+								<img class="footera1 " src="__XIAOHE__/img/1.png" >
+								<img class="footera3 dib" src="__XIAOHE__/img/2.png" >
+								<div class="footera2 ">
+									众筹
+								</div>
+							</a>
+							<a href="{:url('index/index/me')}" class="footera">
+								<img class="footera1 dib" src="__XIAOHE__/img/3.png" >
+								<img class="footera3 " src="__XIAOHE__/img/4.png" >
+								<div class="footera2 cgr50">
+									我的
+								</div>
+							</a>
+						</div>
+						
+				</div>
+
+				
+
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+// $('.wddd1aa').click(function(){
+// 	// var id = $('.wddd1aa').index(this)
+// 	// alert(id);
+// 	$('.wddd1aay').removeClass('wddd1aay');
+// 	$(this).addClass('wddd1aay');
+// 	var status = $(this).attr('status');
+// 	// alert(status);
+// 	if(status=='all'){
+// 		$('.wddd2').show();
+// 	}else{
+// 		$('.wddd2').hide();
+// 		$('.status'+status).show();
+// 		// $('.wddd2').attr('status')
+// 	}
+	
+// });
+
+
+
+ $('.wddd1aa').click(function(){
+  $('.wddd2').css({
+   'display':'none'
+  })
+  	$('.wddd1aay').removeClass('wddd1aay');
+	$(this).addClass('wddd1aay');
+
+  var id = $(this).attr('status')
+  for(var i = 0 ; i<$('.wddd2').length;i++){
+   if(id == $('.wddd2').eq(i).attr('status')){
+    $('.wddd2').eq(i).css({
+     'display':'block'
+    })
+   }
+  }
+  if(id=='all'){
+		$('.wddd2').css({
+     'display':'block'
+    })
+	}
+  
+ });
+
+</script>

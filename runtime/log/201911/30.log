@@ -1,0 +1,103 @@
+---------------------------------------------------------------
+[ 2019-11-30T16:14:49+08:00 ] 222.240.44.115 HEAD tlhb.wxjoi.com/
+[运行时间：0.037651s] [吞吐率：26.56req/s] [内存消耗：3,277.08kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001938s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001956s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tlhb.wxjoi.com',
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001250s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' ORDER BY `createtime` ASC [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 3  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2019-11-30T17:51:26+08:00 ] 47.100.2.4 GET tlhb.wxjoi.com/
+[运行时间：0.058721s] [吞吐率：17.03req/s] [内存消耗：3,277.57kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004862s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004894s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'tlhb.wxjoi.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002138s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002297s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' ORDER BY `createtime` ASC [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 3  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000174s ]

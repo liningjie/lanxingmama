@@ -1,0 +1,897 @@
+---------------------------------------------------------------
+[ 2019-12-17T08:11:39+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin
+[运行时间：0.858707s] [吞吐率：1.16req/s] [内存消耗：2,772.63kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.017276s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017306s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009349s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001431s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:11:41+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/index/login?url=%2Fadmin
+[运行时间：0.052089s] [吞吐率：19.20req/s] [内存消耗：3,071.68kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003734s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003756s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001298s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:11:42+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/index.php?s=/captcha
+[运行时间：0.077613s] [吞吐率：12.88req/s] [内存消耗：2,172.02kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003602s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003623s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/index/login?url=%2Fadmin',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/tlhb.wxjoi.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:11:44+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/ajax/lang?callback=define&controllername=index&v=1576541501
+[运行时间：0.051355s] [吞吐率：19.47req/s] [内存消耗：3,077.59kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003598s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003617s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/index/login?url=%2Fadmin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1576541501',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001259s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:11:55+08:00 ] 115.33.164.28 POST tlhb.wxjoi.com/admin/index/login?url=%2Fadmin
+[运行时间：0.121853s] [吞吐率：8.21req/s] [内存消耗：3,862.30kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003761s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003785s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/index/login?url=%2Fadmin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tlhb.wxjoi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '96',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+  '__token__' => 'f2b05ee19c23ea07aff3008f1ec917b7',
+  'username' => 'admin',
+  'password' => 'MwLfbzJf8wn2GsS8',
+  'captcha' => 'fdbb',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015240s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006363s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017405s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] UPDATE `zc_admin`  SET `logintime`=1576541515,`token`='e4a0ad20-19fa-4018-8b55-8371bc467992',`updatetime`=1576541515  WHERE  `id` = 2 [ RunTime:0.008663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin_log` [ RunTime:0.001562s ]
+[ sql ] [ SQL ] INSERT INTO `zc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"f2b05ee19c23ea07aff3008f1ec917b7\",\"username\":\"admin\",\"captcha\":\"fdbb\"}' , '/admin/index/login?url=%2Fadmin' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/' , '115.33.164.28' , 1576541515) [ RunTime:0.004285s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:11:55+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin
+[运行时间：0.175767s] [吞吐率：5.69req/s] [内存消耗：4,074.03kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003620s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003644s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/index/login?url=%2Fadmin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001329s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:11:56+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/ajax/lang?callback=define&controllername=index&v=1576541515
+[运行时间：0.041819s] [吞吐率：23.91req/s] [内存消耗：3,078.71kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003592s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003616s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1576541515',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001238s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:11:58+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/pro?addtabs=1
+[运行时间：0.174645s] [吞吐率：5.73req/s] [内存消耗：3,990.33kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003740s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003775s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pro',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001824s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro.php
+[ info ] [ RUN ] app\admin\controller\Pro->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/view/pro/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'topstatusList',
+  6 => 'statusList',
+  7 => 'yijia1statusList',
+  8 => 'yijia2statusList',
+  9 => 'yijia3statusList',
+  10 => 'yijia4statusList',
+  11 => 'yijia5statusList',
+  12 => 'yijia6statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011330s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.001923s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'pro' LIMIT 1 [ RunTime:0.001554s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:11:59+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/ajax/lang?callback=define&controllername=pro&v=1576541518
+[运行时间：0.041323s] [吞吐率：24.20req/s] [内存消耗：3,078.54kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003710s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003736s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'pro',
+  'v' => '1576541518',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001291s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:12:00+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1576541519996
+[运行时间：0.073185s] [吞吐率：13.66req/s] [内存消耗：4,126.02kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001915s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001931s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pro',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1576541519996',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro.php
+[ info ] [ RUN ] app\admin\controller\Pro->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Pro.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.005241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.009018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.009943s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:12:07+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/pro_order?addtabs=1
+[运行时间：0.062270s] [吞吐率：16.06req/s] [内存消耗：3,930.03kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003626s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003647s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pro_order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro_order?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001291s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro_order.php
+[ info ] [ RUN ] app\admin\controller\ProOrder->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/ProOrder.php ]
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/view/pro_order/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'orderStatusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'proorder' LIMIT 1 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:12:08+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/ajax/lang?callback=define&controllername=pro_order&v=1576541527
+[运行时间：0.054455s] [吞吐率：18.36req/s] [内存消耗：3,074.80kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003372s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003408s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro_order?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'pro_order',
+  'v' => '1576541527',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001824s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro_order.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:12:09+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/pro_order/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1576541529230
+[运行时间：0.125712s] [吞吐率：7.95req/s] [内存消耗：4,030.43kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003763s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003788s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pro_order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro_order?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1576541529230',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004050s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro_order.php
+[ info ] [ RUN ] app\admin\controller\ProOrder->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/ProOrder.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.003002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.003480s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro_order` WHERE `zc_pro_order`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE `zc_pro_order`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2019-12-17T08:12:36+08:00 ] 101.91.60.109 GET tlhb.wxjoi.com/admin
+[运行时间：0.042569s] [吞吐率：23.49req/s] [内存消耗：2,771.98kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003863s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003888s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001303s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:12:44+08:00 ] 101.89.19.149 GET tlhb.wxjoi.com/admin/index/login?url=%2Fadmin
+[运行时间：0.069340s] [吞吐率：14.42req/s] [内存消耗：3,069.57kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005999s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006036s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-17T08:23:42+08:00 ] 115.33.164.28 GET tlhb.wxjoi.com/admin/pro_order/index?addtabs=1&sort=id&order=desc&offset=10&limit=10&filter=%7B%7D&op=%7B%7D&_=1576541529231
+[运行时间：0.043260s] [吞吐率：23.12req/s] [内存消耗：4,023.34kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001892s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001912s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pro_order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vav9tel1o8c8l6n5p67q919od2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tlhb.wxjoi.com/admin/pro_order?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1219.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'tlhb.wxjoi.com',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '10',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1576541529231',
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/admin/lang/zh-cn/pro_order.php
+[ info ] [ RUN ] app\admin\controller\ProOrder->index[ /www/wwwroot/tlhb.wxjoi.com/application/admin/controller/ProOrder.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (8,29,30,31,32,33,34,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,156,157,158,159,160,161,2) [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro_order` WHERE `zc_pro_order`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE `zc_pro_order`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 10,10 [ RunTime:0.000205s ]
+---------------------------------------------------------------
+[ 2019-12-17T09:53:50+08:00 ] 47.101.62.158 GET tlhb.wxjoi.com/
+[运行时间：0.062767s] [吞吐率：15.93req/s] [内存消耗：3,277.57kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003627s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003649s ]
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'tlhb.wxjoi.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001431s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/tlhb.wxjoi.com/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tlhb.wxjoi.com/public/../application/index/view/index/index.html [ array (
+  0 => 'toppro',
+  1 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;dbname=tlhb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002555s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' ORDER BY `createtime` ASC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 3  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 50  AND `order_status` > '0' [ RunTime:0.000201s ]

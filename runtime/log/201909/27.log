@@ -1,0 +1,808 @@
+---------------------------------------------------------------
+[ 2019-09-27T14:24:38+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2019-09-27T14:24:51+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001868s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2019-09-27T14:24:54+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018466s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2019-09-27T14:25:38+08:00 ] 101.91.60.11 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2019-09-27T14:25:58+08:00 ] 101.89.239.230 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:21+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:26+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:40+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:47+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:50+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:01:54+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:02:22+08:00 ] 101.227.139.161 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:11:31+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002243s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:14:32+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001864s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:14:37+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.028447s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:14:40+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002256s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:15:42+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/getUserOpenId?code=011g53Nj0wGKip1c5ZMj0j7mNj0g53Ne&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `nickname`='5r2Y54KvLeS6rOatoy3ml6DplKHor5rpobrovr4tMTM1ODUwNzE4Mzg=',`head_url`='http://thirdwx.qlogo.cn/mmopen/vi_32/B5KGe7PEWv1Qr6X6iaCpfJDaic6iahy9DSsCmKAic1wTgAWUicZwbJXxHmqgfXNhKhZJFwEfAdlFkicaL7qXZ0LZsClA/132',`openid`='oe7qJ02m8wKx3HqODyMcer39f3jg',`sex`='1',`updatetime`=1569568542  WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:15:43+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/me
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:15:45+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/order.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' ORDER BY `createtime` DESC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:15:47+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/me
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:15:49+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/order.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' ORDER BY `createtime` DESC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:16:01+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001708s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' ORDER BY `createtime` DESC [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001706s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:23:43+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:04+08:00 ] 180.113.93.192 POST csd.wxjoi.com/admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin` [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_admin` WHERE  `username` = 'xiaohe' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] UPDATE `zc_admin`  SET `logintime`=1569569104,`token`='74874d06-66b1-41b0-97b4-d9ea0bcbb3b6',`updatetime`=1569569104  WHERE  `id` = 1 [ RunTime:0.005909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin_log` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] INSERT INTO `zc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"9b688db623bfa38219ccaebb141333ef\",\"username\":\"xiaohe\",\"captcha\":\"RNAX\"}' , '/admin/index/login?url=%2Fadmin' , 1 , 'xiaohe' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '180.113.93.192' , 1569569104) [ RunTime:0.004194s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:04+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.001490s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.002142s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `zc_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:04+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.001671s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:34+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/kaijiang?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'kaijiang' LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:35+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/kaijiang/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569137388
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_kaijiang` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000829s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:39+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/kaijiang/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569137389
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_kaijiang` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000164s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:39+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/kaijiang/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569137390
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_kaijiang` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_kaijiang` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:43+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'pro' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:43+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569145916
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:45+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/wxuser?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'wxuser' LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:45+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/wxuser/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569147488
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_wxuser` WHERE `zc_wxuser`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE `zc_wxuser`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:49+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569145917
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:50+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569145918
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:50+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `zc_auth_rule` WHERE  `name` = 'pro' LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:50+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569152594
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.006668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:25:52+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/edit/ids/5?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE (  `id` = 5 ) AND `zc_pro`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.001523s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:26:14+08:00 ] 180.113.93.192 POST csd.wxjoi.com/admin/ajax/upload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_attachment` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_attachment` WHERE  `url` = '/uploads/20190927/89820c55bae011413866d29cf4900e85.jpg' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] INSERT INTO `zc_attachment` (`admin_id` , `filesize` , `imagewidth` , `imageheight` , `imagetype` , `mimetype` , `url` , `uploadtime` , `storage` , `sha1` , `extparam` , `createtime` , `updatetime`) VALUES (1 , 1455609 , '750' , '7784' , 'jpg' , 'image/jpeg' , '/uploads/20190927/89820c55bae011413866d29cf4900e85.jpg' , 1569569174 , 'local' , '9969e042e5556b02f6c341baa9402a475af3477e' , '{\"name\":\"111.jpg\"}' , 1569569174 , 1569569174) [ RunTime:0.005924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin_log` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] INSERT INTO `zc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"name\":\"111.jpg\"}' , '/admin/ajax/upload' , 1 , 'xiaohe' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '180.113.93.192' , 1569569174) [ RunTime:0.004564s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:26:17+08:00 ] 180.113.93.192 POST csd.wxjoi.com/admin/pro/edit/ids/5?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE (  `id` = 5 ) AND `zc_pro`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_order_ticket` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_order_ticket` WHERE  `ticket` = '5000032861' LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2209420616252405' LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] UPDATE `zc_pro`  SET `content`='<p><img src=\"/uploads/20190927/89820c55bae011413866d29cf4900e85.jpg\" data-filename=\"filename\" style=\"width: 470px;\"><br></p>',`click`=0,`number4`=0,`have_only4`=0,`number5`=0,`have_only5`=0,`number6`=0,`have_only6`=0,`updatetime`=1569569177  WHERE  `id` = 5 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_admin_log` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] INSERT INTO `zc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('商品管理 编辑' , '{\"dialog\":\"1\",\"row\":{\"userid\":\"xiaohe\",\"title\":\"JZ-825 \\u5168\\u529f\\u80fd\\u8bd5\\u9a8c\\u53f0\",\"topstatus\":\"1\",\"number_url\":\"\\/admin\\/pro\\/number?id=5\",\"description\":\"JZ-825\\u673a\\u5668\",\"keyword\":\"\",\"content\":\"<p><img src=\\\"\\/uploads\\/20190927\\/89820c55bae011413866d29cf4900e85.jpg\\\" data-filename=\\\"filename\\\" style=\\\"width: 470px;\\\"><br><\\/p>\",\"image\":\"\\/uploads\\/20190920\\/bf2892ae9700731b69de16c65ba47960.png\",\"images\":\"\\/uploads\\/20190923\\/6d562cc930e232ef84b6c5659326c6ad.jpg,\\/uploads\\/20190924\\/af26029ac260342c54a15b6a5f8a7f32.jpg,\\/uploads\\/20190924\\/7c7412fe07e9fbc747427d6d579e442e.jpg\",\"status\":\"1\",\"click\":\"0\",\"lotterytime\":\"2019-11-11 23:59:59\",\"price1\":\"1.00\",\"full_price1\":\"88888.00\",\"number1\":\"88888\",\"have_only1\":\"88888\",\"jieshao1\":\"1\\u5143\\u652f\\u6301\\uff0c\\u53ef\\u4ee5\\u91cd\\u590d\\u8d2d\\u4e70\\uff0c\\u4e0d\\u8bbe\\u4e0a\\u9650\",\"kaijiang1\":\"5000032861\",\"yijia1status\":\"0\",\"price2\":\"18.00\",\"full_price2\":\"88888.00\",\"number2\":\"4300\",\"have_only2\":\"4300\",\"jieshao2\":\"18\\u5143\\u652f\\u6301\\uff0c\\u53ef\\u4ee5\\u91cd\\u590d\\u8d2d\\u4e70\\uff0c\\u4e0d\\u8bbe\\u4e0a\\u9650\",\"kaijiang2\":\"\",\"yijia2status\":\"1\",\"price3\":\"88888.00\",\"full_price3\":\"88888.00\",\"number3\":\"6\",\"have_only3\":\"6\",\"jieshao3\":\"\\u524d\\u6240\\u672a\\u6709\\u7684\\u4f18\\u60e0\\u529b\\u5ea6\",\"kaijiang3\":\"\",\"yijia3status\":\"0\",\"price4\":\"0.00\",\"full_price4\":\"0.00\",\"number4\":\"0\",\"have_only4\":\"0\",\"jieshao4\":\"\",\"kaijiang4\":\"\",\"yijia4status\":\"0\",\"price5\":\"0.00\",\"full_price5\":\"0.00\",\"number5\":\"0\",\"have_only5\":\"0\",\"jieshao5\":\"\",\"kaijiang5\":\"\",\"yijia5status\":\"0\",\"price6\":\"0.00\",\"full_price6\":\"0.00\",\"number6\":\"0\",\"have_only6\":\"0\",\"jieshao6\":\"\",\"kaijiang6\":\"\",\"yijia6status\":\"0\"},\"ids\":\"5\"}' , '/admin/pro/edit/ids/5?dialog=1' , 1 , 'xiaohe' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '180.113.93.192' , 1569569177) [ RunTime:0.050710s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:26:17+08:00 ] 180.113.93.192 GET csd.wxjoi.com/admin/pro/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569569152595
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_group_access` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `zc_auth_group_access` `aga` LEFT JOIN `zc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_auth_rule` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `zc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE `zc_pro`.`deletetime` IS NULL ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-09-27T15:48:22+08:00 ] 47.100.2.4 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:27+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:30+08:00 ] 58.246.221.143 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:30+08:00 ] 120.204.17.46 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002330s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:31+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000172s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:31+08:00 ] 58.246.221.161 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002198s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:31+08:00 ] 120.204.17.46 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003968s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000191s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:34+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:34+08:00 ] 120.204.17.69 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:48+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002545s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:56+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:57+08:00 ] 223.104.145.200 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002495s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000201s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:47:59+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011363s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.008148s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:48:01+08:00 ] 223.104.145.200 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001773s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:48:03+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:48:06+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002189s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:48:13+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:48:14+08:00 ] 223.104.145.200 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:49:24+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:49:35+08:00 ] 223.104.145.200 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:49:46+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.003380s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:49:58+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:50:09+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:50:24+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:50:44+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001139s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:50:48+08:00 ] 101.227.139.161 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000993s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:51:09+08:00 ] 49.66.139.193 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000191s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:51:12+08:00 ] 49.66.139.193 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:58:23+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001813s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:58:25+08:00 ] 223.104.145.200 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000899s ]
+---------------------------------------------------------------
+[ 2019-09-27T17:58:30+08:00 ] 223.104.145.200 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:31:37+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:31:49+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:35:07+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:35:10+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:35:12+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:36:14+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:36:27+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:37:21+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-09-27T18:37:32+08:00 ] 180.113.93.192 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007128s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001903s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1 [ RunTime:0.000203s ]

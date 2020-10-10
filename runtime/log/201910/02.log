@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-10-02T21:51:21+08:00 ] 121.235.115.160 GET csd.wxjoi.com/index/index/getUserOpenId?code=061vbFS82f9K6K0Sa2U82rxES82vbFSc&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `nickname`='5r2Y54KvLeS6rOatoy3ml6DplKHor5rpobrovr4tMTM1ODUwNzE4Mzg=',`head_url`='http://thirdwx.qlogo.cn/mmopen/vi_32/B5KGe7PEWv1Qr6X6iaCpfJDaic6iahy9DSsCmKAic1wTgAWUicZwbJXxHmqgfXNhKhZJFwEfAdlFkicaL7qXZ0LZsClA/132',`openid`='oe7qJ02m8wKx3HqODyMcer39f3jg',`sex`='1',`updatetime`=1570024281  WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-10-02T21:51:21+08:00 ] 121.235.115.160 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000201s ]
+---------------------------------------------------------------
+[ 2019-10-02T21:51:29+08:00 ] 121.235.115.160 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000254s ]

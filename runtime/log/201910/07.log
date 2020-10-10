@@ -1,0 +1,794 @@
+---------------------------------------------------------------
+[ 2019-10-07T03:35:30+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T09:17:05+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/getUserOpenId?code=001Zt1FW0lFX612RpaGW0c5eFW0Zt1Fz&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001656s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.001499s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `nickname`='5r2Y54KvLeS6rOatoy3ml6DplKHor5rpobrovr4tMTM1ODUwNzE4Mzg=',`head_url`='http://thirdwx.qlogo.cn/mmopen/vi_32/B5KGe7PEWv1Qr6X6iaCpfJDaic6iahy9DSsCmKAic1wTgAWUicZwbJXxHmqgfXNhKhZJFwEfAdlFkicaL7qXZ0LZsClA/132',`openid`='oe7qJ02m8wKx3HqODyMcer39f3jg',`sex`='1',`updatetime`=1570411025  WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:05+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002240s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:07+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002185s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:17+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:19+08:00 ] 49.66.141.163 POST csd.wxjoi.com/index/index/submit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] INSERT INTO `zc_pro_order` (`address` , `ltdname` , `name` , `tel` , `proid` , `duan` , `price` , `number` , `full_price` , `jieshao` , `order_status` , `createtime` , `updatetime` , `openid` , `order_no`) VALUES ('无锡市惠山区石塘湾' , '诚顺达' , '潘炯' , '13812269716' , 5 , 1 , 1 , 1 , 1 , '1元支持，可以重复购买，不设上限' , '0' , 1570411039 , 1570411039 , 'oe7qJ02m8wKx3HqODyMcer39f3jg' , '2510191709072116') [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:26+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:28+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.002035s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02m8wKx3HqODyMcer39f3jg' ORDER BY `createtime` DESC [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:18:11+08:00 ] 61.151.178.236 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:35:32+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:04:20+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/getUserOpenId?code=01199ewb26cKxM09s3vb2ppjwb299ewH&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('5rGf5rmW5r2H5rSS5ZOl' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLuLyoiaXxa02H66wU0ZsPXFfEicbV3WxuIfCz2k7icqm4k2epoBDMYziaEfEIvQb71EKVuUg9dabuKuA/132' , 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' , '1' , 1570421060 , 1570421060) [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:04:20+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:05:37+08:00 ] 117.136.66.42 POST csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `tel`='13857241454',`name`='杨栋梁',`address`='浙江省湖州市德清县新市镇',`ltdname`=''  WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:05:39+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/me
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:06:19+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002531s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:06:33+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:06:57+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:07:01+08:00 ] 117.136.66.42 POST csd.wxjoi.com/index/index/submit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] INSERT INTO `zc_pro_order` (`address` , `ltdname` , `name` , `tel` , `proid` , `duan` , `price` , `number` , `full_price` , `jieshao` , `order_status` , `createtime` , `updatetime` , `openid` , `order_no`) VALUES ('浙江省湖州市德清县新市镇' , '' , '杨栋梁' , '13857241454' , 5 , 1 , 1 , 1 , 1 , '1元支持，可以重复购买，不设上限' , '0' , 1570421221 , 1570421221 , 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' , '2510010712073489') [ RunTime:0.000845s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:07:16+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:07:18+08:00 ] 117.136.66.42 POST csd.wxjoi.com/index/index/pay
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510010712073489' LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] UPDATE `zc_pro_order`  SET `order_status`='1',`updatetime`=1570421238  WHERE  `order_no` = '2510010712073489' [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_order_ticket` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_order_ticket` WHERE  `order_no` = '2510010712073489' LIMIT 1 [ RunTime:0.012812s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510010712073489' LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_order_ticket` WHERE  `proid` = 5 [ RunTime:0.060127s ]
+[ sql ] [ SQL ] SELECT MAX(ticket) AS tp_max FROM `zc_order_ticket` WHERE  `proid` = 5 LIMIT 1 [ RunTime:0.022817s ]
+[ sql ] [ SQL ] INSERT INTO `zc_order_ticket` (`order_no` , `jieshao` , `proid` , `duan` , `createtime` , `updatetime` , `ticket`) VALUES ('2510010712073489' , '1元支持，可以重复购买，不设上限' , 5 , 1 , 1570421238 , 1570421238 , '5000070037') [ RunTime:0.003259s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:07:18+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/zfcg?order=2510010712073489
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510010712073489' LIMIT 1 [ RunTime:0.001474s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:07:33+08:00 ] 183.3.234.57 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:07:48+08:00 ] 101.226.103.69 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:08:20+08:00 ] 58.251.80.49 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:08:56+08:00 ] 117.136.66.42 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013062s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:08+08:00 ] 117.136.66.42 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:16+08:00 ] 117.136.66.42 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:26+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/me.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:29+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:31+08:00 ] 117.136.66.42 GET csd.wxjoi.com/index/index/me.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ08iqhQAsSGFMkBQjUjS8c4s' [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:09:32+08:00 ] 117.136.66.42 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:11:20+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:21:21+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:37:07+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/getUserOpenId?code=071GObaX1uIRD01hlscX1uDraX1GObas&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('KO++n9CU776fKe++iQ==' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLI3HccAJ73FZmcFyaEbc1U9qIC9XjqSEGONC2xELOfxZczSxnjrZTicrg6mkDCsPuZShB64K6VgnQ/132' , 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' , '1' , 1570423027 , 1570423027) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:37:07+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001030s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.002648s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:38:21+08:00 ] 49.90.48.170 POST csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001548s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `tel`='17321709761',`name`='黄宏伟',`address`='无锡市惠山区石塘湾',`ltdname`=''  WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:38:24+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:38:28+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:39:39+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:39:46+08:00 ] 49.90.48.170 POST csd.wxjoi.com/index/index/submit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] INSERT INTO `zc_pro_order` (`address` , `ltdname` , `name` , `tel` , `proid` , `duan` , `price` , `number` , `full_price` , `jieshao` , `order_status` , `createtime` , `updatetime` , `openid` , `order_no`) VALUES ('无锡市惠山区石塘湾' , '' , '黄宏伟' , '17321709761' , 5 , 1 , 1 , 1 , 1 , '1元支持，可以重复购买，不设上限' , '0' , 1570423186 , 1570423186 , 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' , '2510463912074950') [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:39:54+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:40:01+08:00 ] 49.90.48.170 POST csd.wxjoi.com/index/index/pay
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.002699s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510463912074950' LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] UPDATE `zc_pro_order`  SET `order_status`='1',`updatetime`=1570423201  WHERE  `order_no` = '2510463912074950' [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_order_ticket` [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_order_ticket` WHERE  `order_no` = '2510463912074950' LIMIT 1 [ RunTime:0.014640s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510463912074950' LIMIT 1 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_order_ticket` WHERE  `proid` = 5 [ RunTime:0.116377s ]
+[ sql ] [ SQL ] SELECT MAX(ticket) AS tp_max FROM `zc_order_ticket` WHERE  `proid` = 5 LIMIT 1 [ RunTime:0.024276s ]
+[ sql ] [ SQL ] INSERT INTO `zc_order_ticket` (`order_no` , `jieshao` , `proid` , `duan` , `createtime` , `updatetime` , `ticket`) VALUES ('2510463912074950' , '1元支持，可以重复购买，不设上限' , 5 , 1 , 1570423201 , 1570423201 , '5000070038') [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:40:01+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/zfcg?order=2510463912074950
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.002263s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510463912074950' LIMIT 1 [ RunTime:0.000837s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:40:10+08:00 ] 183.3.234.60 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:40:25+08:00 ] 101.226.103.69 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:40:56+08:00 ] 58.251.80.44 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:41:07+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ0zwnOJx0t5VMG-beuhAA68E' ORDER BY `createtime` DESC [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:41:22+08:00 ] 140.207.54.75 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:43:58+08:00 ] 183.3.234.60 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:44:35+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002890s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:44:39+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001772s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:48:22+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002264s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000194s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:53:59+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T12:54:41+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:54:46+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:55:53+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:56:41+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/getUserOpenId?code=071nCt2T0kAxL029n52T0SAu2T0nCt20&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('Q2hhbm5pbmc=' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep06cm39O6tazWpG6ebMQehjczMicBgo0fFA15HoKZkAUdXfblPbpicgw71iawdu30dzu0xZIUOWHCrA/132' , 'oe7qJ02MNWB6knBZgK9hU-nxffiE' , '1' , 1570424201 , 1570424201) [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:56:41+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000588s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:57:44+08:00 ] 49.66.141.163 POST csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001925s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `tel`='18626342518',`name`='陈佳俊',`address`='江苏无锡市惠山区洛社镇石塘湾加油站对面100米无锡诚顺达汽车科技有限公司',`ltdname`=''  WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:57:46+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000190s ]
+---------------------------------------------------------------
+[ 2019-10-07T12:57:53+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000889s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:00:40+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002272s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:00:44+08:00 ] 49.90.48.170 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002354s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:04+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.001964s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:08+08:00 ] 49.66.141.163 POST csd.wxjoi.com/index/index/submit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.002792s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.001223s ]
+[ sql ] [ SQL ] INSERT INTO `zc_pro_order` (`address` , `ltdname` , `name` , `tel` , `proid` , `duan` , `price` , `number` , `full_price` , `jieshao` , `order_status` , `createtime` , `updatetime` , `openid` , `order_no`) VALUES ('江苏无锡市惠山区洛社镇石塘湾加油站对面100米无锡诚顺达汽车科技有限公司' , '' , '陈佳俊' , '18626342518' , 5 , 1 , 1 , 1 , 1 , '1元支持，可以重复购买，不设上限' , '0' , 1570424468 , 1570424468 , 'oe7qJ02MNWB6knBZgK9hU-nxffiE' , '2510080113071703') [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:21+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' ORDER BY `createtime` DESC [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:30+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/me
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '0'  AND `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '1'  AND `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '2'  AND `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_status` = '3'  AND `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:34+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/order.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ02MNWB6knBZgK9hU-nxffiE' ORDER BY `createtime` DESC [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:50+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:01:53+08:00 ] 49.66.141.163 POST csd.wxjoi.com/index/index/pay
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510080113071703' LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] UPDATE `zc_pro_order`  SET `order_status`='1',`updatetime`=1570424513  WHERE  `order_no` = '2510080113071703' [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_order_ticket` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_order_ticket` WHERE  `order_no` = '2510080113071703' LIMIT 1 [ RunTime:0.012112s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510080113071703' LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_order_ticket` WHERE  `proid` = 5 [ RunTime:0.051956s ]
+[ sql ] [ SQL ] SELECT MAX(ticket) AS tp_max FROM `zc_order_ticket` WHERE  `proid` = 5 LIMIT 1 [ RunTime:0.022315s ]
+[ sql ] [ SQL ] INSERT INTO `zc_order_ticket` (`order_no` , `jieshao` , `proid` , `duan` , `createtime` , `updatetime` , `ticket`) VALUES ('2510080113071703' , '1元支持，可以重复购买，不设上限' , 5 , 1 , 1570424513 , 1570424513 , '5000070039') [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:01:53+08:00 ] 49.66.141.163 GET csd.wxjoi.com/index/index/zfcg?order=2510080113071703
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510080113071703' LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:02:04+08:00 ] 49.90.48.170 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:02:05+08:00 ] 101.226.103.69 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:02:21+08:00 ] 58.251.80.44 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:02:31+08:00 ] 49.66.141.163 GET csd.wxjoi.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:02:51+08:00 ] 183.3.234.46 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:05:52+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:11:24+08:00 ] 140.207.54.75 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:12:05+08:00 ] 121.239.39.172 GET csd.wxjoi.com/index/index/getUserOpenId?code=071CgTDX0XNClV1hHGEX0KqEDX0CgTD-&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zUujYofSAJjPL-Pm68hzAs' LIMIT 1 [ RunTime:0.003130s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('SmFzb24uSHU=' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erKop8iby4yp4UDrqCaE6hHLxXtcSu4stgGL4pbjsJu1kxapB9gicQ8F2iaERPcKuqwibmKjOgYOCtayw/132' , 'oe7qJ0zUujYofSAJjPL-Pm68hzAs' , '1' , 1570425125 , 1570425125) [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:12:05+08:00 ] 121.239.39.172 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0zUujYofSAJjPL-Pm68hzAs' LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:14:01+08:00 ] 101.226.103.70 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:15:53+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:35:54+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:41:25+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:44:02+08:00 ] 58.251.80.49 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T13:59:06+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/getUserOpenId?code=0014HiRq0b2ffm1psEQq0r2qRq04HiRr&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('6YO95YyA55S15Za35rK55rO15rK55Zi057u05L+uMTM5ODQ0NDc1OTY=' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/RPoJZxdmqamziauFfH0KvetbCunCKftLpg4wNk3Q0CVLKtesC45Ua2BWrpQaeBSbh1XyLKoYfnq5LiaZrm2w8DuA/132' , 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' , '1' , 1570427946 , 1570427946) [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:59:06+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:59:47+08:00 ] 111.122.155.51 POST csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `tel`='13984447596',`name`='郭富来',`address`='贵州省都匀市',`ltdname`='小龙油泵油嘴服务站'  WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-10-07T13:59:49+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-10-07T14:00:01+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-10-07T14:00:32+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2019-10-07T14:05:56+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T14:14:03+08:00 ] 111.122.155.51 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0-B46aiyeIzQjKPvl-Ecex8' LIMIT 1 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2019-10-07T14:14:04+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T14:35:57+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T14:41:27+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T15:14:06+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T15:35:59+08:00 ] 140.207.54.75 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T17:14:56+08:00 ] 117.136.106.126 GET csd.wxjoi.com/index/index/getUserOpenId?code=001tuzOX1jKhf019YYPX1P3tOX1tuzOX&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08PW9ijogOnf07RJwrBD2n4' LIMIT 1 [ RunTime:0.001552s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('R2Vu' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/gFzsZlYmWqGmkPAGwCW9XKDzUjtf8OANMjPTuiaqC1ACibNptuLukiavygdY5uc0nZ8tMcR1daN04W4cNebkB2pnQ/132' , 'oe7qJ08PW9ijogOnf07RJwrBD2n4' , '1' , 1570439696 , 1570439696) [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-10-07T17:14:57+08:00 ] 117.136.106.126 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020488s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.007770s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ08PW9ijogOnf07RJwrBD2n4' LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2019-10-07T17:41:29+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T18:14:07+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T18:36:00+08:00 ] 140.207.54.75 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:04:46+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/getUserOpenId?code=0717ZWZT1hcon41jzZZT1O0HZT17ZWZF&state=xiaohe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] INSERT INTO `zc_wxuser` (`nickname` , `head_url` , `openid` , `sex` , `updatetime` , `createtime`) VALUES ('5bCP56ym55S15Za35rK55rO15rK55Zi057u05L+uMTUyNjg2ODAzMzY=' , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKEtTv6m24GxhOOvD5jRklIa9MKv0gkfd1RiahHqy7vh3vYBu25NH4yse6PHEibuzfqXVjhba6blbZQ/132' , 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' , '1' , 1570449886 , 1570449886) [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:04:46+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:06:00+08:00 ] 112.17.245.28 POST csd.wxjoi.com/index/index/userdata
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] UPDATE `zc_wxuser`  SET `tel`='15268680336',`name`='符初辉',`address`='浙江省永康市经济开发区九州西路',`ltdname`='小符电喷油泵油嘴维修'  WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:06:01+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '0' [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 4  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `status` = '1'  AND `topstatus` = '1' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:06:18+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/xqy.html?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.002246s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `proid` = 5  AND `price` = 1  AND `order_status` > '0' [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:08:43+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/submit?id=5&duan=1&number=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:08:54+08:00 ] 112.17.245.28 POST csd.wxjoi.com/index/index/submit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_wxuser` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_wxuser` WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] INSERT INTO `zc_pro_order` (`address` , `ltdname` , `name` , `tel` , `proid` , `duan` , `price` , `number` , `full_price` , `jieshao` , `order_status` , `createtime` , `updatetime` , `openid` , `order_no`) VALUES ('浙江省永康市经济开发区九州西路' , '小符电喷油泵油嘴维修' , '符初辉' , '15268680336' , 5 , 1 , 1 , 1 , 1 , '1元支持，可以重复购买，不设上限' , '0' , 1570450134 , 1570450134 , 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' , '2510540820071988') [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:09:04+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:09:06+08:00 ] 112.17.245.28 POST csd.wxjoi.com/index/index/pay
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510540820071988' LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] UPDATE `zc_pro_order`  SET `order_status`='1',`updatetime`=1570450146  WHERE  `order_no` = '2510540820071988' [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_order_ticket` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_order_ticket` WHERE  `order_no` = '2510540820071988' LIMIT 1 [ RunTime:0.012136s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510540820071988' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_order_ticket` WHERE  `proid` = 5 [ RunTime:0.057333s ]
+[ sql ] [ SQL ] SELECT MAX(ticket) AS tp_max FROM `zc_order_ticket` WHERE  `proid` = 5 LIMIT 1 [ RunTime:0.022773s ]
+[ sql ] [ SQL ] INSERT INTO `zc_order_ticket` (`order_no` , `jieshao` , `proid` , `duan` , `createtime` , `updatetime` , `ticket`) VALUES ('2510540820071988' , '1元支持，可以重复购买，不设上限' , 5 , 1 , 1570450146 , 1570450146 , '5000070040') [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:09:06+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/zfcg?order=2510540820071988
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `order_no` = '2510540820071988' LIMIT 1 [ RunTime:0.001321s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:09:14+08:00 ] 112.17.245.28 GET csd.wxjoi.com/index/index/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=csd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro_order` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro_order` WHERE  `openid` = 'oe7qJ0wRYpHXzG8i-3VsA6lQwT64' ORDER BY `createtime` DESC [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_pro` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_pro` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2019-10-07T20:09:21+08:00 ] 183.3.234.60 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:09:36+08:00 ] 101.226.103.61 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:10:07+08:00 ] 58.251.80.49 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:13:08+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:23:09+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:41:30+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T20:43:10+08:00 ] 183.3.234.46 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T21:13:12+08:00 ] 140.207.54.75 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T21:14:09+08:00 ] 101.226.103.59 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T21:36:01+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T21:43:13+08:00 ] 140.207.54.76 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T22:43:14+08:00 ] 140.207.54.73 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order
+---------------------------------------------------------------
+[ 2019-10-07T23:41:32+08:00 ] 140.207.54.74 POST csd.wxjoi.com/index/index/pay
+[ error ] [8]未定义数组索引: order

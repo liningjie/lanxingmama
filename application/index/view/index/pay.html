@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>微信公众号H5接口调用</title>
+  <script src='./js/md5.js'></script>
+</head>
+<body>
+  <script>
+    // 判断微信版本是否在5.0以上
+    // window.navigator.userAgent 属性包含了浏览器类型，版本，操作系统类型，浏览器引擎等信息
+    var ua = window.navigator.userAgent.toLowerCase()
+    // 通过正则表达式匹配 ua 中是否含有 MicroMessenger 字符串
+    if (ua.match(/MicroMessenger/i) != 'micromessenger') {
+      return false
+    }
+ 
+    var appId = 'wx123456789'
+    // 微信H5接口调用准备
+    // 1,时间戳
+    var timeStamp = new Date()
+    timeStamp = timeStamp.getTime()/1000
+    console.log('时间戳', timeStamp)
+ 
+    // 2,生成32位随机字符串
+    function randomString(len) {
+      len = len || 32
+      // 默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1
+      var chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+      var charsLen = chars.length;
+      var pwd = '';
+      for (var i=0;i<len;i++) {
+        pwd += chars.charAt(Math.floor(Math.random() * charsLen))
+      }
+      return pwd
+    }
+    console.log('nonceStr，32位随机字符串', randomString())
+ 
+    // 3,package，统一下单接口返回的prepay_id 参数值
+ 
+    // 4，paySign：微信签名
+    function wxSignFunc() {
+      // 4.1,将参数改写成 key=value&key2=value2 形式，需要按照参数名ASCII字典序排序
+      var stringA = 'appId=' + appId
+            +'&nonceStr=' + randomString()
+            +'&package=prepay_id=u802345jgfjsdfgsdg888'
+            +'&signType=MD5'
+            +'&timeStamp=' + timeStamp
+ 
+      ///// 4.2，拼接API 密钥
+      var stringSignTemp = stringA + '&key=192006250b4c09247ec02edce69f6a2d' //注：key为商户平台设置的密钥key
+      var sign = hex_md5(stringSignTemp).toUpperCase()
+      return sign
+    }
+ 
+    console.log(wxSignFunc())
+ 
+    //////////// 微信接口实例
+    function onBridgeReady(){
+     WeixinJSBridge.invoke(
+        'getBrandWCPayRequest', {
+          "appId": appId,   //公众号名称，由商户传入   
+          "timeStamp": timeStamp,     //时间戳，自1970年以来的秒数   
+          "nonceStr": randomString(), //随机串   
+          "package":"prepay_id=u802345jgfjsdfgsdg888",  // 统一下单接口返回的prepay_id 参数值 
+          "signType":"MD5",     //微信签名方式：   
+          "paySign": wxSignFunc() //微信签名 
+        },
+        function(res){
+          if(res.err_msg == "get_brand_wcpay_request:ok" ){
+            // 使用以上方式判断前端返回,微信团队郑重提示：
+            // res.err_msg将在用户支付成功后返回ok，但并不保证它绝对可靠。
+            console.log(111)
+          }
+        }
+      )
+    }
+ 
+    // 调用微信接口
+    if (typeof WeixinJSBridge == "undefined"){
+     if( document.addEventListener ){
+      document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+     } else if (document.attachEvent){
+      document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+      document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+     }
+    }else{
+     onBridgeReady();
+    }
+  </script>
+ 
+</body>
+</html>
